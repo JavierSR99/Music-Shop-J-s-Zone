@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Sketch;
+    src: url('../../gui/fonts/sketch_3d/Sketch 3D.otf');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+#padre {
+    background: url("../../img/fondo.jpg");
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hijo {
+    background: white;
+    width: 900px;
+    height: 400px;
+    padding: 2%;
+}
+#aregistro {
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+.sinborde {
+    border: none;
+    background-color: white;
+    color: #0000bf;
+    text-decoration: underline;
+}
+
+.titulito {
+    font-family: Sketch;
+    font-size: 50px;
+}
+
+
+
+
