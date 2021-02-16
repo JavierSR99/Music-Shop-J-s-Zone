@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-03-2020 a las 12:20:01
--- Versión del servidor: 10.4.6-MariaDB
--- Versión de PHP: 7.1.32
+-- Tiempo de generación: 16-02-2021 a las 18:00:01
+-- Versión del servidor: 10.4.17-MariaDB
+-- Versión de PHP: 8.0.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -322,12 +321,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`cod_user`, `user`, `password`, `email`, `saldo`, `n_cd`) VALUES
-(14, 'JavierSR99', '85a2c228694f408c48de03d62f26251b', 'javiersr11999@gmail.com', '3.89', 12),
-(15, 'admin', '0192023a7bbd73250516f069df18b500', 'usuario_administrador@admin.com', '0.00', 0),
-(16, 'PepeHD', '89be6148585bfb50d2f7535ec219dfaf', 'pepepepe@gmail.com', '4.00', 1),
-(17, 'Javier', '74b87337454200d4d33f80c4663dc5e5', 'aaaaa@gmail.com', '0.00', 0),
-(18, 'prueba', '8ace72535e8ea08b22681721a437a6f5', 'prueba@gmail.com', '0.00', 0),
-(19, 'a', '0cc175b9c0f1b6a831c399e269772661', 'aaa@correo.es', '0.00', 0);
+(15, 'admin', '0192023a7bbd73250516f069df18b500', 'usuario_administrador@admin.com', '0.00', 0);
 
 --
 -- Índices para tablas volcadas
